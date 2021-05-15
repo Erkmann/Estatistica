@@ -8,7 +8,7 @@ while c:
 
     print(get_v_quadrado(v, media))
 
-    cont = input('Continuar? (1,0): ')
+    cont = float(input('Continuar? (1,0): '))
 
     if cont == 0:
         c = False
